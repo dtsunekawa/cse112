@@ -1,0 +1,142 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-09-30 17:01:04 -0700
+Served asset /rails.png - 200 OK (21ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-30 17:52:10 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.2ms)
+Compiled home.css  (59ms)  (pid 27644)
+Compiled application.css  (66ms)  (pid 27644)
+Compiled jquery.js  (4ms)  (pid 27644)
+Compiled jquery_ujs.js  (0ms)  (pid 27644)
+Compiled home.js  (293ms)  (pid 27644)
+Compiled application.js  (381ms)  (pid 27644)
+Completed 200 OK in 543ms (Views: 542.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-30 17:52:11 -0700
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-30 17:52:11 -0700
+Served asset /jquery.js - 200 OK (11ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-30 17:52:11 -0700
+Served asset /home.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-30 17:52:11 -0700
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-30 17:52:11 -0700
+Served asset /application.js - 200 OK (12ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-30 17:52:11 -0700
+Served asset /home.js - 200 OK (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-30 17:55:28 -0700
+Processing by HomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (173.9013ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=rails3_mongoid_devise_development collection=users selector={} flags=[] limit=0 skip=0 fields=nil (0.6313ms)
+  Rendered home/index.html.erb within layouts/application (176.2ms)
+Completed 200 OK in 238ms (Views: 186.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-30 17:55:28 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-30 17:55:28 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-30 17:55:28 -0700
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-30 17:55:28 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-30 17:55:28 -0700
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-30 17:55:29 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.0691ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=rails3_mongoid_devise_development collection=system.namespaces selector={:name=>{"$not"=>/rails3_mongoid_devise_development\.system|\$/}} flags=[] limit=0 skip=0 fields=nil (36.6724ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=rails3_mongoid_devise_development collection=users selector={"email"=>"user@example.com"} flags=[] limit=1 skip=0 fields={:_id=>1} (8.8558ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=rails3_mongoid_devise_development collection=users selector={"name"=>/\AFirst\ User$/i} flags=[] limit=1 skip=0 fields={:_id=>1} (15.3539ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=rails3_mongoid_devise_development collection=users selector={"email"=>/\Auser@example\.com$/i} flags=[] limit=1 skip=0 fields={:_id=>1} (0.5102ms)
+  MOPED: 127.0.0.1:27017 INSERT       database=rails3_mongoid_devise_development collection=users documents=[{"_id"=>"5068ee6d40af5bac6c000001", "email"=>"user@example.com", "encrypted_password"=>"$2a$10$GvZCOeqyJF3UWKXLM9n9W.A4iYmYFqxhAzEgX3oHLLk2M.cLMTv72", "sign_in_count"=>0, "name"=>"First User"}] flags=[] (0.3235ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-30 18:14:50 -0700
+Processing by HomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.0450ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=rails3_mongoid_devise_development collection=users selector={} flags=[] limit=0 skip=0 fields=nil (0.5836ms)
+  Rendered home/index.html.erb within layouts/application (34.8ms)
+Completed 200 OK in 98ms (Views: 97.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-30 18:14:51 -0700
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-30 18:14:51 -0700
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-30 18:14:51 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-30 18:14:51 -0700
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-30 18:14:51 -0700
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-30 18:14:51 -0700
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-01 12:27:34 -0700
+Processing by HomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.6427ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=rails3_mongoid_devise_development collection=users selector={} flags=[] limit=0 skip=0 fields=nil (0.3049ms)
+  Rendered home/index.html.erb within layouts/application (54.2ms)
+Completed 200 OK in 116ms (Views: 115.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-01 12:27:34 -0700
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-10-01 12:27:34 -0700
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-01 12:27:34 -0700
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-01 12:27:34 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-10-01 12:27:34 -0700
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-01 12:27:34 -0700
+Served asset /application.js - 304 Not Modified (9ms)
